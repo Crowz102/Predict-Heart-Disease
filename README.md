@@ -4,9 +4,9 @@ This project focuses on detecting signs of cardiovascular disease using machine 
 
 ## Project Structure
 
-- **notebook.ipynb**: The Jupyter Notebook containing all the code for data preprocessing, model training, evaluation, and comparison of the three machine learning models.
-- **dataset.csv**: The dataset used for training and evaluating the models.
-- **model.pkl**: The trained Random Forest model, saved as a .pkl file for later use.
+- **Heart_Disease.ipynb**: The Jupyter Notebook containing all the code for data preprocessing, model training, evaluation, and comparison of the three machine learning models.
+- **heart-disease.csv**: The dataset used for training and evaluating the models.
+- **heart_disease_model.pkl**: The trained Random Forest model, saved as a .pkl file for later use.
 
 ## Usage
 
@@ -17,4 +17,9 @@ To run the project, you can clone this repository and open the `notebook.ipynb` 
 To install the necessary dependencies, you can use the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install scikit-learn
+pip install joblib
