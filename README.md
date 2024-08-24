@@ -1,26 +1,20 @@
 # Cardiovascular Disease Detection Project
 
-This project focuses on detecting signs of cardiovascular disease using machine learning techniques. The goal is to compare the accuracy of three different models: Logistic Regression, K-Nearest Neighbors (KNN), and Random Forest.
+This project focuses on detecting signs of cardiovascular disease using machine learning models. The dataset provided in a CSV file is used to train and evaluate three different models: Logistic Regression, K-Nearest Neighbors (KNN), and Random Forest. After comparing their accuracy, the Random Forest model was selected for its superior performance.
 
 ## Project Structure
 
-- **`Heart_Disease.ipynb`**: This Jupyter Notebook contains the data preprocessing, model training, and evaluation processes. It walks through the steps of loading the data, applying the three machine learning models, and comparing their performance in terms of accuracy.
-- **`heart-disease.csv`**: The dataset used in this project, which includes various medical parameters that are potential indicators of cardiovascular disease.
+- **notebook.ipynb**: The Jupyter Notebook containing all the code for data preprocessing, model training, evaluation, and comparison of the three machine learning models.
+- **dataset.csv**: The dataset used for training and evaluating the models.
+- **model.pkl**: The trained Random Forest model, saved as a .pkl file for later use.
 
-## Models Used
+## Usage
 
-1. **Logistic Regression**: A linear model used for binary classification problems.
-2. **K-Nearest Neighbors (KNN)**: A non-parametric method used for classification.
-3. **Random Forest**: An ensemble learning method that combines multiple decision trees to improve the model's performance.
+To run the project, you can clone this repository and open the `notebook.ipynb` file in Jupyter Notebook. The notebook contains step-by-step instructions and code for replicating the results.
 
-## Results
+## Installation
 
-The models are evaluated based on their accuracy in predicting the presence of cardiovascular disease. The results of the comparison are included in the notebook.
+To install the necessary dependencies, you can use the following command:
 
-## How to Use
-
-1. Clone this repository.
-2. Open the `Heart_Disease.ipynb` file in JupyterLab or any compatible environment.
-3. Run the notebook to see the results and analysis.
-
-Feel free to contribute to this project or use it as a reference for similar work!
+```bash
+pip install -r requirements.txt
